@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mainmenu.jpg</file>
+        <file>leaveBut.png</file>
+        <file>menubg.png</file>
+        <file>rulesBut.png</file>
+        <file>startGameBut.png</file>
+    </qresource>
+</RCC>
