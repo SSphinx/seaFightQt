@@ -13,9 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        seafightqt.cpp
+        seafightqt.cpp \
+    shipplace.cpp
 
-HEADERS  += seafightqt.h
+HEADERS  += seafightqt.h \
+    shipplace.h
 
 FORMS    += seafightqt.ui
 
