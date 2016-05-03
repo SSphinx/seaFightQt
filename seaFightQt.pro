@@ -18,3 +18,8 @@ SOURCES += main.cpp\
 HEADERS  += seafightqt.h
 
 FORMS    += seafightqt.ui
+
+DISTFILES +=
+
+RESOURCES += \
+    resource.qrc
