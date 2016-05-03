@@ -6,6 +6,7 @@ seaFightQt::seaFightQt(QWidget *parent) :
     ui(new Ui::seaFightQt)
 {
     ui->setupUi(this);
+    connect(this->ui->leaveGameButton,SIGNAL(clicked(bool)),this, SLOT(close()));
 
 }
 

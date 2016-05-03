@@ -13,6 +13,12 @@
     <height>600</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="minimumSize">
    <size>
     <width>800</width>
@@ -32,8 +38,8 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">#seaFightQt {
-	background-image: url(:/menubg.png);
+   <string notr="true">#seaFightQt{
+	background: url(:/menubg.png) transparent;
 }</string>
   </property>
   <widget class="QPushButton" name="startGameButton">
