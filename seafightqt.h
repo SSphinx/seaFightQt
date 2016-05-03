@@ -2,6 +2,7 @@
 #define SEAFIGHTQT_H
 
 #include <QWidget>
+#include <QPixmap>
 
 namespace Ui {
 class seaFightQt;
